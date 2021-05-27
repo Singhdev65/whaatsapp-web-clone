@@ -1,0 +1,33 @@
+.feed {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid lightgray;
+}
+
+.feed:hover {
+  background-color: #efefef;
+}
+
+.feed__info {
+  margin-left: 1.3rem;
+  text-overflow: ellipsis !important;
+}
+
+.feed__info > h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+  text-transform: capitalize;
+}
+
+.feed__info > p {
+  height: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000;
+}
